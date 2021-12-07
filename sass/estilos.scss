@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+//paleta de colores
+  :root{
+    --blue: #08428C;
+    --cream: #FFF6F0;
+    --withe: #FFF2ED;
+    --black: #000000;
+    --bluesin: #1F818C;
+}
+  
+  body{
+    font-size: 20px ;
+    font-family: 'Courgette', cursive;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+  body {
+    background: #1a1a1a;
+    background: linear-gradient(183deg, #242424 0%, #141329 100%);
+  }
+  
+  .redondear {
+    border-radius: 1.5rem;
+  }
+  
+  /*
+  ESTILOS BARRA DE NAVEGACION
+  */
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+  
+  .nav-personal {
+    background: #464342;
+    //flex-grow: 100;
+    
+
+  
+    
+  }
+  
+  .navbar-dark .navbar-toggler-icon {
+    background-image: url("/img/kupla.png");
+  }
+  
+  /*
+  ESTILOS FONDOS PERSONALIZADOS
+  */
+  .bg-claro {
+    background-color:#7a8581;
+  }
+
+
+
+  
+
+  header{
+    padding: 30px 0;
+}
+header .logo{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+  .nav-item {
+    background-color:#3d3837;
+  }
+
+
+  //yo lo puse
+
+  .menu {
+    background-color: var(--blue);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    z-index: 999;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Zen Kure',serif;
+    font-style: italic;
+    margin-bottom: 60px;
+}
+
+.menu a{
+        display: inline-block;
+        padding: 10px 30px;
+        font-size: 26px;
+        background-color: var(--blue);
+        margin: 0 50px;
+        transition: .5s ease all;
+        color: var(--cream);
+        text-decoration: none;
+
+}
+
+.menu a:hover{
+    transform: translateY(18px);
+    background-color: var(--bluesin);
+}
+
+
+
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+
+.contenedor-titulo-controles {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.contenedor-titulo-controles h3{
+        color: #1F818C;
+        font-size: 30px;
+}
+
+
+.contenedor-titulo-controles .indicadores button{
+    background: #000000;
+    height: 3px;
+    width: 10px;
+    cursor: pointer;
+    border: none;
+    margin-right: 2px;
+}
+
+.contenedor-titulo-controles .indicadores button:hover,
+.contenedor-titulo-controles .indicadores button:hover{
+    background: #08428C;
+    
+}
+
+
+.fotos-album{
+    margin-bottom: 70px;
+
+}
+
+.fotos-album .contenedor-principal {
+display: flex;
+align-items: center;
+position: relative;
+} 
+
+
+
+
+
+  
